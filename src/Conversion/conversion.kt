@@ -15,5 +15,4 @@ fun main() {
     val stringToArray = name.split(" ")
     val arrayToSortedList = stringToArray.toSortedSet().sortedDescending()
     print("${arrayToSortedList.first()},${arrayToSortedList.last()}")
-
 }
