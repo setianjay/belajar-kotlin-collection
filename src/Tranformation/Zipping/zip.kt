@@ -1,0 +1,15 @@
+package Tranformation.Zipping
+
+fun main() {
+    val list1 = setOf("Mister","Hari","Setiaji")
+    val list2 = mutableSetOf("Programmer","Akhir","Zaman")
+
+    val list3: List<Pair<String,String>> = list1.zip(list2)
+    println(list3)
+
+    // Cara jika kita ingin mengcustom penggabungannya
+    val list4 = list1.zip(list2){a, b ->
+        "$a $b"
+    }
+    println(list4)
+}
