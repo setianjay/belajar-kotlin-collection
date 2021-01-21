@@ -1,6 +1,11 @@
 package Tranformation.Zipping
 
 fun main() {
+    /*
+        "unzip" berguna untuk memecah collection.
+        Hanya collection berdata Pair yang bisa menggunakan "unzip"
+     */
+
     val list1 = setOf("Mister","Hari","Setiaji")
     val list2 = setOf("Programmer","Akhir","Zaman")
 

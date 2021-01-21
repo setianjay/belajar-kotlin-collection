@@ -1,6 +1,9 @@
 package Tranformation.Zipping
 
 fun main() {
+    /*
+        "zip" berguna untuk menggabungkan 2 buah collection menjadi satu.
+     */
     val list1 = setOf("Mister","Hari","Setiaji")
     val list2 = mutableSetOf("Programmer","Akhir","Zaman")
 
