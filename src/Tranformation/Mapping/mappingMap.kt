@@ -7,8 +7,12 @@ fun main() {
             3 to "Selia Putri Aji"
     )
 
-    val mapKeys = student.mapKeys { it.key*10 }
-    println(mapKeys)
+    val mapKeys = student.mapKeys {
+        if (it.key  == 1){
+            println(it.value)
+        }
+    }
+    student.mapKeys { println(it.key * 2) }
 
     val mapValue = student.mapValues { it.value.toUpperCase() }
     println(mapValue)
