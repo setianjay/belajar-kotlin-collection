@@ -1,4 +1,4 @@
-package Tranformation.Filter
+package Filtering.Filter
 
 fun main() {
     val listName = listOf("Hari","Setiaji","Aprilia")
