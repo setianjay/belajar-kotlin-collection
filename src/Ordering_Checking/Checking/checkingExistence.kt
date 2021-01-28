@@ -1,4 +1,4 @@
-package Order_Checking.Checking
+package Ordering_Checking.Checking
 
 fun main() {
     val listNumber = (1..20).toSet()
