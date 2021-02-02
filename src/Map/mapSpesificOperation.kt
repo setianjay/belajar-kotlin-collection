@@ -3,6 +3,7 @@ package Map
 fun main() {
     val map = mapOf("a" to "Hari","b" to "Aprilia","c" to "Setiaji")
 
+    println(map.entries.joinToString(","){(key,value) -> "$value"}) // map to string
     println(map.get("b"))
     println(map.getValue("b"))
     println(map.getOrDefault("d","Tidak ada"))
